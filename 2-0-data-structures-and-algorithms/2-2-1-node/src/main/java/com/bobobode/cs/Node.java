@@ -9,5 +9,11 @@ package com.bobobode.cs;
  * @author Taras Boychuk
  */
 public class Node<T> {
-    // todo:
+    T node;
+
+    Node<T> nextNode;
+
+    public Node(final T node) {
+        this.node = node;
+    }
 }
